@@ -440,9 +440,9 @@ twoway (tsline hpi_shock1_pct hpi_shock2_pct ///
     yline(0, lpattern(dot) lcolor(red)) ///
     graphregion(color(white)) ///
     bgcolor(white) ///
-    legend(lab(1 "Housing price") ///
-           lab(2 "Household balance sheet") ///
-           lab(3 "Financial bond premium") ///
-           lab(4 "Actual (detrended)") ///
-           bplacement(sw) ring(0) cols(1) nobox region(lwidth(none))) ///
+    legend(off) ///
+    text(-0.9 198.1 "Housing price", place(e) color(black) size(small)) ///
+    text(-3.2 198.1 "Household" "balance sheet", place(e) color(black) size(small)) ///
+    text(-5.0 198.1 "Financial" "bond premium", place(e) color(black) size(small)) ///
+    text(-9.4 198.1 "Actual" "(detrended)", place(e) color(black) size(small)) ///
     name(Figure7_Adjusted, replace)
